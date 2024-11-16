@@ -1,0 +1,83 @@
+body{
+    line-height: 1;
+}
+ol, ul{
+    list-style: none;
+}
+blockquote, q{
+    quotes: none;
+}
+blockquote:before ,blockquote:after
+q:before , q:after { 
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* style */
+body{ 
+    font: 16px/28px arial, sans-serif;
+    background-color:gray;
+    color: #333;
+    background-image: url(img/double-bubble-dark.webp);
+}
+
+.container { 
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+.header {
+    padding: 20px;
+}
+.header .judul {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aqua;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 1px;
+    margin-left: -10px;
+    
+}
+.header a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 5px;
+}
+.header a:hover{
+    background-color: black;
+    color: white;
+    
+}
+.hero{
+    height: 250px;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: 0 -235;
+}
+.content{
+    padding: 20px
+}
+.content h2{
+    font-size: 35px;
+    font-weight: 20px;
+}
+.content .penulis{
+    font-size: 11px;
+}
+.footer{
+    background-color: #333;
+    padding: 5px;
+}
+.footer .copyright{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
