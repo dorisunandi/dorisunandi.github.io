@@ -81,3 +81,36 @@ body{
     text-align: center;
     font-size: 12px;
 }
+
+.size1{
+    font-size: 3em;
+}
+#hitungan{
+    display: block;
+    text-align: center;
+    font-size: 7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #37f109;
+   
+}
+#tombolcontainer{
+    text-align: center;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: chartreuse;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.button:hover{
+    background-color: rgb(255, 1, 1);
+}
+.centered {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #000;
+}
